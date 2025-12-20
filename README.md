@@ -70,10 +70,16 @@ docker run -it --rm \
   -v /my/local/results:/results \
   SmartRoute /bin/bash
 ```
+## 4. Dataset Preparation
 
-## 4\. Dataset Preparation
+### 4.1 Download Data
+We provide the necessary datasets (including base vectors, vector labels, query vectors, and query labels for 8 datasets) hosted on Hugging Face.
 
-Please organize your data according to the following hierarchy (using `Dataset_Name` as a generic example):
+* **Hugging Face Repository**: [paper-review/8-Datasets](https://huggingface.co/datasets/paper-review/8-Datasets)
+
+
+### 4.2 Directory Structure
+After downloading, please organize your data according to the following hierarchy to ensure the scripts can locate them correctly (using `Dataset_Name` as a generic example.):
 
 ```text
 /data/Dataset_Name/
@@ -85,7 +91,6 @@ Please organize your data according to the following hierarchy (using `Dataset_N
 └── ...
 ```
 
------
 
 ## 5\. Core Experiment Execution (Exp.sh)
 
