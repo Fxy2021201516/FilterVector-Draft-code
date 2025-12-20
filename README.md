@@ -1,5 +1,13 @@
 # SmartRoute: Filtered Approximate Nearest Neighbor Search
 
+[![Hugging Face Datasets](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-8_Datasets-yellow)](https://huggingface.co/datasets/paper-review/8-Datasets)
+
+> 💡 **Data Availability**
+>
+> The full datasets for this project (including Base Vectors, Labels, Queries, and Query Labels for 8 datasets) are hosted on Hugging Face.
+>
+> **Download here:** [https://huggingface.co/datasets/paper-review/8-Datasets](https://huggingface.co/datasets/paper-review/8-Datasets)
+
 This project implements **SmartRoute**, a Filtered Approximate Nearest Neighbor Search (LANNS) framework optimized for scenarios with **Diverse Labels**.
 
 SmartRoute integrates multiple search strategies and utilizes a lightweight machine learning model as a **Router**. It dynamically selects the optimal search path based on the filtering conditions of a query in real-time. This project also includes complete implementations of **UNG (Unified Navigating Graph)** and **ACORN** as baselines or components.
